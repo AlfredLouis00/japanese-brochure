@@ -1,0 +1,116 @@
+\documentclass[12pt, a4paper, oneside]{book}
+\usepackage{color}
+\usepackage{BOONDOX-cal, xeCJK, amsmath, amsthm, amssymb, bm, graphicx, hyperref, mathrsfs, fontspec, subfigure}
+\usepackage{pxrubrica}
+\title{{\Huge{\textbf{日语学习须知}}}\\——课本上不讲的一些日语小知识}
+\author{Alfred}
+\date{\today}
+
+\linespread{1.5}
+\setCJKmainfont[BoldFont={TH-Hak.TTF}, ItalicFont={TH-Khaai-PP0.TTF}]{TH-Tshyn-P0.TTF}
+\setromanfont[Mapping=tex-text]{TH-Times.TTF}
+\setsansfont[Mapping=tex-text, Scale=MatchLowercase]{TH-Times.TTF}
+\setmonofont[Scale=MatchLowercase]{TH-Times.TTF}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+\setCJKfamilyfont{zj}{TH-Ming-P0.TTC}
+%\setCJKfamilyfont{hentai}{Zen Kurenaido}
+\newcommand{\jp}{\CJKfamily{zj}}
+%\newcommand{\hentai}{\CJKfamily{hentai}}
+\begin{document}
+
+\maketitle
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\begin{center}
+    \Huge\textbf{Preface}
+\end{center}~\
+一门语言的学习涉及多个方面，而教科书上的知识总有未提及的地方，我还是希望能补上这部分的知识。
+\\ {\color{red} 注：本书仅对一些内容进行补充，不能单独作为日语学习的教材。}
+~\
+\begin{flushright}
+    \begin{tabular}{c}
+        Alfred \
+        \today
+    \end{tabular}
+\end{flushright}
+
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\tableofcontents
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\chapter{文字}
+日本语使用四种文字:平假名(ひらがな)、片假名(カタカナ)、汉字({\jp \ruby{漢}{かん}\ruby{字}{じ}})和罗马音({\jp ローマ\ruby{字}{じ}})。
+\section{书写}
+\subsection{平假名}
+假名そさきふしりね具有变体写法如下图\ref{tab:dif}。\\
+而平假名里面わ行还有两个已经废除的假名ゐ(wi)和ゑ(we)，现代日语已经不使用，但是学习古代日语（文语等）还会碰到。在现代日语里ゐ和ゑ一般可以直接认为是い和え。
+\begin{figure}[htbp]
+\centering
+\subfigure[Fuji Mai体]{
+\includegraphics[scale=0.5]{1.png} \label{1}
+}
+\quad
+\subfigure[Zen Kurenaido体]{
+\includegraphics[scale=0.5]{2.png} \label{2} 
+}
+\quad
+\subfigure[Hira Mincho体]{
+\includegraphics[scale=0.5]{3.png}\label{3}
+}
+\quad
+\subfigure[M Plus 1体]{
+\includegraphics[scale=0.5]{4.png}\label{4}
+}
+\caption{不同的字体显示的そさきふしりね}
+\label{tab:dif}
+\end{figure}
+\subsection{片假名}
+注意ソン以及ツシ两对假名的写法。ソン手写时笔锋朝向不同，ツシ两点相对位置不同，末笔笔锋也不同
+\begin{center}
+    \textit{\Huge ソンツシ} 
+\end{center}
+ゐ和ゑ对应的片假名分别是ヰ和ヱ。
+\subsection{汉字}
+首先声明，日语使用的汉字既不是繁体字也不是简体字，而是日本自己对汉字独立简化后的产物，他们称之为``{\jp \ruby{新字体}{しん|じ|たい}}''，由《{\jp \ruby{当用漢字表}{とう|よう|かん|じ|ひょう}}》规定。而我们所谓繁体字应该被称为``{\jp \ruby{旧字体}{きゅう|じ|たい}}''。\\
+而日语的汉字也在一些细节上跟国内不一样。{\jp \color{red}\ruby{結}{むすび}}这个字，就写成{\color{red}\ruby{結}{むすび}}这样也是可以的。但是像{\jp \color{red} \ruby{漢}{かん}}这样的就不能写成汉语{\color{red}漢}这样。这个问题挺复杂的，总之尽量注意一下教材上日语汉字的印刷，有些写法有细微差别。
+\subsection{罗马音}
+首先也是要强调，罗马音虽然是用拉丁字母（也有人狭隘地称为英语字母或者英文字母）但它纯粹就是一种标记的记号，实际的读音都是有规定的。不能死板地用英语或者汉语（拼音）的读法去套。那么应该怎么读呢？我会在第\ref{chap:prn}章给出一些需要注意的点。但是最好的方法还是去听母语者发音。
+\section{一些特殊字符}
+\subsection{假名合体字符}
+〆乄是しめ合字（前者平假名后者片假）；{\jp ゟ}是より合字；ヿ是こと合字；〼是ます合字。
+\subsection{重复标记}
+々ゝゞヽヾ分别用于汉字、平假名、平假名浊音、片假名、片假名浊音的重复标记。例：{\jp \ruby{時々}{とき|どき}、\ruby{あゝ}{あ|あ}、\ruby{つゞ}{つ|づ}、\ruby{アヽ}{ア|ア}、\ruby{ツヾ}{ツ|ヅ}}。
+\subsection{箇}
+ヵヶ
+\section{正字法}
+虽然日本的新正字法让现代日语读写一致，但是还是保留了一些{\jp \ruby{歴史的}{れき|し|てき}\ruby[g]{仮名}{かな}\ruby{遣}{づか}い}(历史假名用法)，导致下面这些现象的发生。
+\subsection{はへを}
+日语里はへを三个假名由于在语法上同时又是格助词的原因，发音有一点特殊。は作格助词时读作わ，へ作格助词时读作え，を仅作格助词，始终读作お。例句
+{\jp \ruby{私}{わたし}は\ruby[g]{昨日}{きのう}\ruby{学校}{がっ|こう}\ruby{校}{こう}へ\ruby{行}{い}って、\ruby{授業}{じゅ|ぎょう}を\ruby{受}{う}けました。}
+应该读作{\jp \ruby{私}{わたし}わ\ruby[g]{昨日}{きのう}\ruby{学}{がっ}\ruby{校}{こう}え\ruby{行}{い}って、\ruby{授業}{じゅ|ぎょう}お\ruby{受}{う}けました。}
+\subsection{ずづじぢ}
+ずづ和じぢ两组假名，每组两个假名读音相同，在现代日语中几乎只使用前者，后者仅在明显是由つ和ち连浊形成时使用。
+
+\chapter{发音}\label{chap:prn}
+\section{元音}
+元音需要注意的就是う段假名（即罗马音里含有u）的假名。因为う的发音与汉语“呜”有一定差别，发う音时要双唇平行放松，不要嘟嘴，让舌面高点自然地前移，听起来可能有点像“呜”略微偏向“额”的音。其他う段假名同理。\\
+需要特别指出假名ふ辅音的发音与汉语“夫”也有所区别，发音时必须让呼出的气从双唇间通过，让上下嘴唇留有空隙才对。
+\section{辅音}
+\subsection{清浊送气}
+\subsection{鼻浊音}
+\subsection{拨音}
+\chapter{输入法}
+
+
+\end{document}
