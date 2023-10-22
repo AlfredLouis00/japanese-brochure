@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.7)  22 OCT 2023 13:49
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.7)  22 OCT 2023 20:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -600,13 +600,18 @@ LaTeX Font Warning: Font shape `TU/TH-Times.TTF(0)/m/sl' undefined
 LaTeX Font Warning: Font shape `TU/TH-Times.TTF(0)/m/it' undefined
 (Font)              using `TU/TH-Times.TTF(0)/m/n' instead on input line 44.
 
-[1] (./japanese.toc)
+[1] (./japanese.toc [1
+
+])
 \tf@toc=\write4
 \openout4 = `japanese.toc'.
 
- [1
 
-]
+
+LaTeX Font Warning: Font shape `TU/TH-Times.TTF(0)/m/sl' undefined
+(Font)              using `TU/TH-Times.TTF(0)/m/it' instead on input line 48.
+
+[2]
 Chapter 1.
 
 Package fontspec Info: Font family 'TH-Ming-P0.TTC(0)' created for font
@@ -646,20 +651,33 @@ LaTeX Font Warning: Font shape `TU/TH-Times.TTF(0)/m/sl' undefined
 [2]
 
 LaTeX Font Warning: Font shape `TU/TH-Times.TTF(0)/m/sl' undefined
-(Font)              using `TU/TH-Times.TTF(0)/m/it' instead on input line 105.
+(Font)              using `TU/TH-Times.TTF(0)/m/it' instead on input line 104.
 
 [3]
 
 LaTeX Font Warning: Font shape `TU/TH-Times.TTF(0)/m/sl' undefined
-(Font)              using `TU/TH-Times.TTF(0)/m/it' instead on input line 105.
+(Font)              using `TU/TH-Times.TTF(0)/m/it' instead on input line 107.
 
 [4]
 Chapter 2.
+
+LaTeX Warning: Reference `sct:bdo' on page 5 undefined on input line 116.
+
 [5
 
 ]
+
+LaTeX Font Warning: Font shape `TU/TH-Times.TTF(0)/m/sl' undefined
+(Font)              using `TU/TH-Times.TTF(0)/m/it' instead on input line 121.
+
+[6]
+
+LaTeX Font Warning: Font shape `TU/TH-Times.TTF(0)/m/sl' undefined
+(Font)              using `TU/TH-Times.TTF(0)/m/it' instead on input line 121.
+
+[7]
 Chapter 3.
-[6
+[8
 
 ] (./japanese.aux)
  ***********
@@ -671,6 +689,9 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
@@ -679,16 +700,16 @@ Package rerunfilecheck Warning: File `japanese.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `japanese.out':
-(rerunfilecheck)             Before: FC24BF3984F5460F674A3361E293C7B7;1484
-(rerunfilecheck)             After:  7A6E360DB7BC7084AD13CA7591B5739C;1622.
+(rerunfilecheck)             Before: 120BCFFCB0DDA48090BB0651AAAFAE45;1642
+(rerunfilecheck)             After:  F6B7DBE7077355FF025D1F76682A0113;1732.
  ) 
 Here is how much of TeX's memory you used:
- 15315 strings out of 475591
- 321408 string characters out of 5777374
- 1927416 words of memory out of 5000000
- 36411 multiletter control sequences out of 15000+600000
+ 15316 strings out of 475591
+ 321417 string characters out of 5777374
+ 1933416 words of memory out of 5000000
+ 36412 multiletter control sequences out of 15000+600000
  573015 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 74i,6n,120p,541b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,6n,120p,541b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on japanese.pdf (9 pages).
+Output written on japanese.pdf (12 pages).
