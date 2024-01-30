@@ -1,2 +1,3 @@
 # japanese-brochure
-A book that helps Japanese learners learn Japanese better.
+
+A book(in Simplified Chinese) that helps Japanese learners learn Japanese better.
